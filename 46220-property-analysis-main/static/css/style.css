@@ -1,0 +1,98 @@
+.navbar-custom {
+  background-color: #337ab7;
+}
+.navbar-brand {
+  color: black;
+}
+#sidewalk {
+  font-size: x-large;
+  text-align: center;
+  background-color: #337ab7;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.col-md-12 {
+  color: black;
+}
+
+.body {
+  background-color: whitesmoke;
+  font-family: fantasy;
+  font-variant: small-caps;
+}
+
+#heading {
+  background-color: #337ab7;
+}
+
+#myChart {
+  font-size: 25;
+  font-weight: 200;
+}
+
+.well {
+  background-color: #337ab7;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.well :hover {
+  background-color: #ddd;
+}
+
+.panel-title {
+  color: black;
+}
+
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map {
+  height: 600px;
+}
+
+#myMap {
+  height: 600px;
+}
+
+.legend {
+  padding: 6px 8px;
+  font: 14px Arial, Helvetica, sans-serif;
+  background: black;
+  background: rgba(255, 255, 255, 0.8);
+  /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+  /*border-radius: 5px;*/
+  line-height: 24px;
+  color: #555;
+}
+.legend h4 {
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 12px 8px;
+  color: #777;
+}
+
+.legend span {
+  position: relative;
+  bottom: 3px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 0 8px 0 0;
+  opacity: 0.7;
+}
+
+.legend i.icon {
+  background-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+}
